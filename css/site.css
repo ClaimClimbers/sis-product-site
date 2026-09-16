@@ -858,23 +858,9 @@ details.faq-item .answer p:last-child {
   color: var(--gold);
 }
 
-/* Motion */
+/* Motion: keep pages still. No splash fades. */
 .reveal {
-  opacity: 0;
-  transform: translateY(12px);
-  animation: revealUp 480ms var(--ease) forwards;
-}
-
-.reveal.d1 {
-  animation-delay: 60ms;
-}
-
-.reveal.d2 {
-  animation-delay: 120ms;
-}
-
-.reveal.d3 {
-  animation-delay: 180ms;
+  animation: none;
 }
 
 @keyframes revealUp {
