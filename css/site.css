@@ -214,8 +214,12 @@ h3 {
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;
-  color: var(--paper);
-  min-width: 0;
+  color: var(--paper) !important;
+  flex: 0 0 auto;
+}
+
+.brand:hover {
+  color: #f0d36a !important;
 }
 
 .brand-mark {
@@ -238,12 +242,14 @@ h3 {
 .brand-text {
   display: flex;
   flex-direction: column;
-  gap: 1px;
-  line-height: 1.1;
+  gap: 2px;
+  line-height: 1.05;
 }
 
 .brand-text strong {
   font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
 }
 
 .brand em {
@@ -301,12 +307,34 @@ h3 {
   display: none;
 }
 
+.hero-campaign {
+  padding: 36px 0 44px;
+}
+
+.hero-campaign h1 {
+  max-width: 18ch;
+  font-size: clamp(2.5rem, 5.6vw, 4.1rem);
+}
+
+.audience-grid-hero {
+  margin: 28px 0 0;
+}
+
+.hero-campaign .audience-card {
+  background: #161c26;
+  border: 2px solid var(--gold);
+}
+
+.hero-campaign .audience-card h2 {
+  font-size: 1.65rem;
+}
+
 .nav a {
   flex: 0 0 auto;
   color: #cfc8bb;
-  font-size: 0.92rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  padding: 11px 0 10px;
+  padding: 10px 0 9px;
   border-bottom: 3px solid transparent;
 }
 
@@ -432,7 +460,7 @@ h3 {
 .page-hero {
   background: var(--ink);
   color: var(--paper);
-  padding: 56px 0 64px;
+  padding: 32px 0 40px;
   border-bottom: 1px solid var(--gold-line);
 }
 
@@ -453,14 +481,14 @@ h3 {
 .hero-campaign .lede,
 .page-hero .lede {
   color: #d9d2c6;
-  font-size: 1.28rem;
-  max-width: 42rem;
+  font-size: 1.12rem;
+  max-width: 44rem;
 }
 
 .hero-campaign h1,
 .page-hero h1 {
   color: var(--paper);
-  max-width: 16ch;
+  max-width: 18ch;
 }
 
 .hero-list {
