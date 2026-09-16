@@ -348,6 +348,26 @@ h3 {
   padding: 28px var(--gutter) 80px;
 }
 
+body[data-page="pricing"] .sheet {
+  padding-top: 32px;
+}
+
+body[data-page="pricing"] .page-head {
+  margin-bottom: 20px;
+}
+
+body[data-page="pricing"] .lede {
+  margin-bottom: 16px;
+}
+
+body[data-page="pricing"] .banner {
+  margin-bottom: 18px;
+}
+
+body[data-page="pricing"] .card {
+  padding: 18px 20px 16px;
+}
+
 .page-head {
   max-width: var(--measure);
   margin: 0 0 36px;
@@ -468,6 +488,7 @@ a.card:hover {
 .sample-flag,
 .need-flag {
   display: inline-block;
+  align-self: flex-start;
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.12em;
