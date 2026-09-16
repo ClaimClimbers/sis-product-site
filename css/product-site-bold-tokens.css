@@ -1,0 +1,31 @@
+/* Campaign Ink. PUBLIC product site only. Kill cream. Partner git-1730 unchanged. */
+:root {
+  --ink: #07090d;
+  --ink-2: #12161e;
+  --paper: #ffffff;
+  --paper-2: #f4f5f7;
+  --panel: #ffffff;
+  --line: rgba(7, 9, 13, 0.12);
+  --line-strong: rgba(7, 9, 13, 0.24);
+  --muted: #3d4450;
+  --faint: #6b7280;
+  --gold: #c9920f;
+  --gold-bright: #e0b12a;
+  --gold-soft: #fff4cc;
+  --accent: #0f6b5c;
+  --accent-bright: #12a594;
+  --accent-soft: #e6f7f4;
+  --focus: #e0b12a;
+  --forest: #0f6b5c;
+  --band-ink: #07090d;
+  --band-ink-2: #12161e;
+  --on-ink: #ffffff;
+  --on-ink-muted: #c5cad3;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", "Segoe UI", "Helvetica Neue", system-ui, sans-serif;
+  --radius: 16px;
+  --max: 1080px;
+  --measure: 38rem;
+  --gutter: 24px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
