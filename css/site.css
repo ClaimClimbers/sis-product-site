@@ -544,11 +544,15 @@ body[data-page="pricing"] .sheet {
 }
 
 body[data-page="pricing"] .page-hero {
-  padding: 24px 0 28px;
+  padding: 20px 0 18px;
 }
 
 body[data-page="pricing"] .page-hero .lede {
-  margin-bottom: 14px;
+  margin-bottom: 0;
+}
+
+body[data-page="pricing"] .page-hero h1 {
+  margin-bottom: 12px;
 }
 
 body[data-page="pricing"] .page-head {
@@ -1496,7 +1500,7 @@ details.faq-item .answer p:last-child {
 
 .pricing-strip {
   background: var(--paper-2);
-  padding: 32px 0 40px;
+  padding: 20px 0 28px;
 }
 
 .pricing-strip .card-grid {
@@ -1549,15 +1553,15 @@ body[data-page="pricing"] .pricing-lead {
 }
 
 body[data-page="pricing"] .pricing-lead .card {
-  padding: 36px 32px 28px;
+  padding: 26px 28px 22px;
 }
 
 body[data-page="pricing"] .pricing-lead .price {
-  font-size: clamp(4.6rem, 8vw, 6.4rem);
+  font-size: clamp(4.2rem, 7vw, 5.6rem);
   line-height: 0.9;
   letter-spacing: -0.05em;
   color: var(--ink);
-  margin: 4px 0 12px;
+  margin: 2px 0 8px;
 }
 
 body[data-page="pricing"] .pricing-lead h3 {
