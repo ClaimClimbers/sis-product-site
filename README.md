@@ -61,7 +61,7 @@ No build step. Framework preset **Other**. Root of this repo is the upload.
 
 ## Visual
 
-Campaign Ink. Newsreader + Source Sans 3. White paper canvas (`#ffffff`). Dark mast (`#07090d`). Gold CTAs (`#c9920f`). Teal accent (`#0f6b5c`). Official tokens in `css/product-site-bold-tokens.css` and the `:root` block in `css/site.css`. Distinct from Claim Climbers.com. No cream, parchment, `#FFC300`, or `#05070b` canvas.
+Campaign Ink. Newsreader + Source Sans 3. White paper canvas (`#ffffff`). Dark mast (`#07090d`). Gold CTAs (`#c9920f`). Teal accent (`#0f6b5c`). Official tokens in `css/product-site-bold-tokens.css` and the `:root` block in `css/site.css`.
 
 ## Contact form
 
