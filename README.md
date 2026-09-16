@@ -7,7 +7,7 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 ## Share intent
 
 - **What to share:** this repo, deployed by Pulse to Vercel as a static site. Send the resulting `https://….vercel.app` URL. Do not invent a custom domain.
-- **Who it is for:** Matt (partner) walking the product narrative. Disability-firm operators who need an MSS / RFC / MRFC packet.
+- **Who it is for:** Matt (partner) walking the product narrative. Claimants, family helpers, and disability-firm operators who need an MSS / RFC / MRFC packet.
 - **Who merges:** Security in Social CEO. **Sam does not merge.**
 - **What not to share as this product:** `sis-partner-git-1730` (partner learning). This site has no progress bars and no lesson library.
 
@@ -16,10 +16,12 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 | Page | File |
 | --- | --- |
 | Home | `index.html` |
+| For you | `for-you.html` |
+| For family | `for-family.html` |
+| For firms | `for-firms.html` |
 | How it works | `how-it-works.html` |
 | What you get | `what-you-get.html` |
 | Pricing | `pricing.html` |
-| For firms | `for-firms.html` |
 | Clinical gate | `clinical-gate.html` |
 | FAQ | `faq.html` |
 | Contact | `contact.html` |
@@ -56,7 +58,7 @@ No build step. Framework preset **Other**. Root of this repo is the upload.
 
 ## Visual
 
-Direction A editorial: Newsreader + Source Sans 3, ink / paper / gold, radius 16, measure ~38rem. Distinct from Claim Climbers.com.
+Direction A campaign: Newsreader + Source Sans 3, ink mast and footer, hard gold CTAs, SiS lockup, radius 16. Distinct from Claim Climbers.com. No Claim Climbers colors or fonts.
 
 ## Contact form
 
