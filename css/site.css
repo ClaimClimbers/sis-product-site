@@ -572,6 +572,10 @@ body[data-page="pricing"] .card {
 }
 
 body[data-page="home"] .card-grid {
+  grid-template-columns: 1fr;
+}
+
+body[data-page="home"] .sheet > .card-grid {
   margin-bottom: 24px;
 }
 
@@ -1549,7 +1553,7 @@ body[data-page="pricing"] .pricing-strip .card .price {
 }
 
 body[data-page="pricing"] .pricing-lead {
-  margin: 0 0 22px;
+  margin: 0;
 }
 
 body[data-page="pricing"] .pricing-lead .card {
