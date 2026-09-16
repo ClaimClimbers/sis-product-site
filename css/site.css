@@ -214,8 +214,12 @@ h3 {
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;
-  color: var(--paper);
-  min-width: 0;
+  color: var(--paper) !important;
+  flex: 0 0 auto;
+}
+
+.brand:hover {
+  color: #f0d36a !important;
 }
 
 .brand-mark {
@@ -238,12 +242,14 @@ h3 {
 .brand-text {
   display: flex;
   flex-direction: column;
-  gap: 1px;
-  line-height: 1.1;
+  gap: 2px;
+  line-height: 1.05;
 }
 
 .brand-text strong {
   font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
 }
 
 .brand em {
