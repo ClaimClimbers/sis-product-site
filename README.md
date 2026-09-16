@@ -1,6 +1,6 @@
 # Security in Social public product site
 
-DIY Social Security help and a **medical record review**. Specialists review the file and name what it can and cannot support. Doctor-signed letters about work limits are coming later. **Security in Social brand only.**
+DIY Social Security help and a **medical record review**. Specialists review the file and name what it can and cannot support. **Security in Social brand only.**
 
 This is the public product marketing site for Matt’s demo. It is **not** the partner learning dashboard (Progress / Lessons / Ask).
 
@@ -30,15 +30,13 @@ Primary nav is six links: Home · For you · For family · How it works · Prici
 
 ## Locks
 
-- Public Home leads with DIY Social Security + medical record review. Primary CTA: **Start a records review**. Secondary: **Join the letter waitlist**.
-- Doctor letters (MSS / physical RFC / mental MRFC) are coming later / waitlist. Do not lead Home with letter SKUs.
-- Public copy is layman first. Acronyms (MSS, RFC, MRFC) in parentheses or on Pricing / For firms.
-- Licensed MD or DO is the sole clinical gate when letters ship. Records specialists assemble packets and draft language from the file. Decline when unsupported.
+- Public Home leads with DIY Social Security + medical record review. Primary CTA: **Start a record review**. Secondary: **See how it works**.
+- Public copy is layman first. Built so an older, non-medical Social Security disability claimant can understand the file.
 - Never AI or bots.
-- Pricing is **SiS list** at 75% of cited industry upfront: review **$149** first. Mental work-limits letter **$300** and physical work-limits letter **$450** stay listed as coming later / waitlist. Industry cites (SAMPLE) stay named on Pricing: $199 Dr. Kaako, $400 Essential Veteran Services, $600 Dr. Kaako. Clinician sign-off fee is **NEED INPUT** if billed separate.
+- **PRICING-LOCK-395-REVIEW-ONLY:** DIY full medical record review **$395** is the only public SKU (Home + Pricing lead). List price. Discounts later (not on site). Do **not** put “75% of industry” framing on this SKU. Doctor-letter SKUs are **out of the public site**.
 - No percent of benefits. No outcome guarantees. No invented doctor credentials.
 - SAMPLE language only. No live claimant records.
-- SSDI only in UI copy. Essential Veteran Services appears only as a Pricing industry cite.
+- SSDI only in UI copy.
 - Claim Climbers appears **once**, on For firms, as first operator customer (ops). Not co-brand. No Claim Climbers logo, colors, or fonts.
 - Domain + legal entity remain deferred. Do not buy or invent a domain.
 - No em dashes in public copy.
@@ -67,4 +65,4 @@ Campaign Ink. Newsreader + Source Sans 3. White paper canvas (`#ffffff`). Dark m
 
 ## Contact form
 
-Static stub. Composes a request in the browser. No backend. Public inbox is NEED INPUT. Primary ask is a records review. Secondary is the doctor-letter waitlist.
+Static stub. Composes a request in the browser. No backend. Public inbox is NEED INPUT. Primary ask is a $395 records review.
