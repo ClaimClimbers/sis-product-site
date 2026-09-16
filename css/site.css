@@ -1,4 +1,4 @@
-/* Campaign Ink. PUBLIC product site only. Kill cream. Partner git-1730 unchanged. */
+/* Campaign Ink — PUBLIC product site only. Kill cream. Partner git-1730 unchanged. */
 :root {
   --ink: #07090d;
   --ink-2: #12161e;
@@ -30,6 +30,15 @@
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+:root {
+  --gold-hover: var(--gold-bright);
+  --gold-ink: var(--ink);
+  --ink-muted: var(--muted);
+  --line-on-white: rgba(7, 9, 13, 0.14);
+  --gold-line: rgba(201, 146, 15, 0.48);
+  --gold-deep: #6b4e00;
+}
+
 *,
 *::before,
 *::after {
@@ -38,7 +47,6 @@
 
 html {
   scroll-behavior: smooth;
-  background: #ffffff;
   background: var(--paper);
 }
 
@@ -49,7 +57,6 @@ body {
 }
 
 body {
-  background: #ffffff;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
@@ -126,7 +133,7 @@ a:hover {
 
 .kicker {
   margin: 0 0 14px;
-  color: var(--accent);
+  color: var(--gold-deep);
   font-family: var(--sans);
   font-size: 0.78rem;
   font-weight: 800;
@@ -163,7 +170,7 @@ h3 {
 }
 
 .lede {
-  color: var(--muted);
+  color: var(--ink-muted);
   margin: 0 0 24px;
   font-size: 1.2rem;
   line-height: 1.65;
@@ -183,7 +190,7 @@ h3 {
   top: 0;
   z-index: 50;
   background: var(--band-ink);
-  border-bottom: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold-line);
   box-shadow: 0 12px 32px rgba(7, 9, 13, 0.28);
 }
 
@@ -395,13 +402,13 @@ h3 {
 
 .btn-primary {
   background: var(--gold);
-  color: var(--ink);
+  color: var(--gold-ink);
   border-color: var(--gold);
 }
 
 .btn-primary:hover {
-  background: var(--gold-bright);
-  color: var(--ink);
+  background: var(--gold-hover);
+  color: var(--gold-ink);
   text-decoration: none;
 }
 
@@ -417,24 +424,16 @@ h3 {
   text-decoration: none;
 }
 
-.hero-campaign .btn-ghost {
+.hero-campaign .btn-ghost,
+.page-hero .btn-ghost {
   color: var(--paper);
   border-color: var(--gold);
 }
 
-.hero-campaign .btn-ghost:hover {
-  background: var(--gold);
-  color: var(--ink);
-}
-
-.page-hero .btn-ghost {
-  color: var(--ink);
-  border-color: var(--ink);
-}
-
+.hero-campaign .btn-ghost:hover,
 .page-hero .btn-ghost:hover {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--gold);
+  color: var(--gold-ink);
 }
 
 .campaign-close .btn-ghost:hover {
@@ -486,7 +485,8 @@ h3 {
   padding: 56px 0 48px;
 }
 
-.hero-campaign {
+.hero-campaign,
+.page-hero {
   background: var(--band-ink);
   color: var(--on-ink);
   padding: 48px 0 56px;
@@ -494,39 +494,29 @@ h3 {
 }
 
 .page-hero {
-  background: var(--paper);
-  color: var(--ink);
   padding: 40px 0 48px;
-  border-bottom: 1px solid var(--gold);
 }
 
 .page-hero h1 {
   font-size: clamp(2.35rem, 5vw, 3.55rem);
   max-width: 18ch;
-  color: var(--ink);
+  color: var(--on-ink);
 }
 
-.hero-campaign .kicker {
+.hero-campaign .kicker,
+.page-hero .kicker {
   color: var(--gold);
 }
 
-.page-hero .kicker {
-  color: var(--accent);
-}
-
-.hero-campaign .lede {
+.hero-campaign .lede,
+.page-hero .lede {
   color: var(--on-ink-muted);
   font-size: 1.12rem;
   max-width: 44rem;
 }
 
-.page-hero .lede {
-  color: var(--muted);
-  font-size: 1.12rem;
-  max-width: 44rem;
-}
-
-.hero-campaign h1 {
+.hero-campaign h1,
+.page-hero h1 {
   color: var(--on-ink);
   max-width: 18ch;
 }
@@ -646,7 +636,7 @@ body[data-page="home"] .card-grid {
 
 .card {
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-on-white);
   border-radius: var(--radius);
   padding: 22px 22px 20px;
   text-decoration: none;
