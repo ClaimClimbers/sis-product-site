@@ -21,6 +21,16 @@
     });
   }
 
+  var hash = window.location.hash;
+  if (hash === "#review") {
+    var reviewBox = document.getElementById("need-review");
+    if (reviewBox) reviewBox.checked = true;
+  }
+  if (hash === "#waitlist") {
+    var waitlistBox = document.getElementById("need-waitlist");
+    if (waitlistBox) waitlistBox.checked = true;
+  }
+
   var form = document.getElementById("demo-form");
   if (!form) return;
 
@@ -34,7 +44,7 @@
     var data = new FormData(form);
     var needs = data.getAll("need");
     var lines = [
-      "Security in Social demo / waitlist request",
+      "Security in Social records review / waitlist request",
       "SAMPLE form stub. No backend. Domain not published (NEED INPUT).",
       "",
       "Name: " + (data.get("name") || ""),

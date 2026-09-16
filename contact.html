@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact · Security in Social</title>
-  <meta name="description" content="Request a demo or join the waitlist for doctor-signed letters about work limits. Static form stub. No invented domain.">
+  <meta name="description" content="Start a records review or join the doctor-letter waitlist. Static form stub. No invented domain. Public inbox is NEED INPUT.">
   <meta name="theme-color" content="#07090d">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,8 +41,8 @@
     <section class="page-hero">
       <div class="hero-inner">
         <p class="kicker">Contact</p>
-        <h1>Tell us the hearing need.</h1>
-        <p class="lede">We are with you. This form stays on your machine. Nothing is stored on a server. A public inbox is NEED INPUT because the domain is deferred. Copy the request and send it to the person who shared this site. That is the next step.</p>
+        <h1>Start a records review.</h1>
+        <p class="lede">Ask about a medical record review, or join the doctor-letter waitlist (coming later). This form stays on your machine. Nothing is stored on a server. A public inbox is NEED INPUT because the domain is deferred. Copy the request and send it to the person who shared this site. That is the next step.</p>
       </div>
     </section>
     <div class="sheet">
@@ -71,22 +71,22 @@
           <label for="email">Email</label>
           <input id="email" name="email" type="email" autocomplete="email" required>
         </div>
-        <div class="field">
+        <div class="field" id="review">
           <label>What you need</label>
           <div class="checks">
+            <label><input id="need-review" type="checkbox" name="need" value="records-review"> Start a records review / ask about a review</label>
+            <label id="waitlist"><input id="need-waitlist" type="checkbox" name="need" value="letter-waitlist"> Join the doctor-letter waitlist (coming later)</label>
             <label><input type="checkbox" name="need" value="demo"> Product demo</label>
-            <label><input type="checkbox" name="need" value="waitlist"> Waitlist</label>
-            <label><input type="checkbox" name="need" value="screen"> Records screen</label>
-            <label><input type="checkbox" name="need" value="mss"> Doctor’s letter about work limits (MSS)</label>
-            <label><input type="checkbox" name="need" value="physical-rfc"> Physical work-limits letter (RFC)</label>
-            <label><input type="checkbox" name="need" value="mental-mrfc"> Mental work-limits letter (MRFC)</label>
+            <label><input type="checkbox" name="need" value="mss"> Doctor’s letter about work limits (MSS) · coming later</label>
+            <label><input type="checkbox" name="need" value="physical-rfc"> Physical work-limits letter (RFC) · coming later</label>
+            <label><input type="checkbox" name="need" value="mental-mrfc"> Mental work-limits letter (MRFC) · coming later</label>
           </div>
         </div>
         <div class="field">
           <label for="notes">Notes</label>
-          <textarea id="notes" name="notes" maxlength="2000" placeholder="Hearing-week pattern, SAMPLE details only. Do not paste live claimant records."></textarea>
+          <textarea id="notes" name="notes" maxlength="2000" placeholder="Social Security step you are on. SAMPLE details only. Do not paste live claimant records."></textarea>
         </div>
-        <p class="note">Do not include real claimant records. SAMPLE language only. No invented doctor names.</p>
+        <p class="note">Do not include real claimant records. SAMPLE language only. No invented doctor names. Public inbox: NEED INPUT.</p>
         <button class="btn btn-primary" type="submit">Compose request</button>
         <div class="form-status" id="form-status" tabindex="-1">
           <p>Request composed locally. No backend. Copy it and send it to the operator who shared this site. Public inbox: NEED INPUT.</p>
@@ -101,7 +101,7 @@
     <div class="foot-inner">
       <div>
         <p><strong>Security in Social</strong></p>
-        <p>Hearing-ready doctor letters about work limits (MSS, physical RFC, mental MRFC). SAMPLE language only. No real claimant records. No outcome guarantees.</p>
+        <p>DIY Social Security help. Medical record review first. Doctor letters about work limits coming later. SAMPLE language only. No real claimant records. No outcome guarantees.</p>
       </div>
       <nav class="foot-nav" aria-label="Footer">
         <a href="for-you.html">For you</a>
