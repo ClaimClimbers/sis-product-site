@@ -1,29 +1,39 @@
 /* Campaign Ink. PUBLIC product site only. Kill cream. Partner git-1730 unchanged.
-   Official PRODUCT-SITE-BOLD-COLOR from product-site-bold-tokens.css.
-   Do not invent gold. Do not use #FFC300, #05070b, parchment, or beige. */
+   Drop-in :root from PRODUCT-SITE-BOLD-COLOR.md. Do not invent gold.
+   Do not use #FFC300, #05070b, #f3efe6, #faf7f1, #fffdf9, parchment, or beige. */
 
 :root {
+  /* Canvas — white / cool gray only. No cream. */
   --ink: #07090d;
   --ink-2: #12161e;
   --paper: #ffffff;
   --paper-2: #f4f5f7;
   --panel: #ffffff;
+
   --line: rgba(7, 9, 13, 0.12);
   --line-strong: rgba(7, 9, 13, 0.24);
   --muted: #3d4450;
   --faint: #6b7280;
+
+  /* Punchy campaign gold (kickers, prices, rare emphasis) */
   --gold: #c9920f;
   --gold-bright: #e0b12a;
-  --gold-soft: #fff4cc;
+  --gold-soft: #fff4cc; /* badge wash only — never page background */
+
+  /* Care accent — teal, not VA blue / not CC orange */
   --accent: #0f6b5c;
   --accent-bright: #12a594;
   --accent-soft: #e6f7f4;
+
   --focus: #e0b12a;
-  --forest: #0f6b5c;
+  --forest: #0f6b5c; /* alias: success / known = accent */
+
+  /* Dark band helper (mast / close CTA). Page canvas stays white. */
   --band-ink: #07090d;
   --band-ink-2: #12161e;
   --on-ink: #ffffff;
   --on-ink-muted: #c5cad3;
+
   --serif: "Newsreader", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", "Segoe UI", "Helvetica Neue", system-ui, sans-serif;
   --radius: 16px;
@@ -41,6 +51,7 @@
 
 html {
   scroll-behavior: smooth;
+  background: var(--paper);
 }
 
 html,
@@ -328,7 +339,7 @@ h3 {
 }
 
 .hero-campaign .audience-card {
-  background: var(--band-ink-2);
+  background: var(--band-ink);
   border: 2px solid var(--gold);
 }
 
@@ -419,12 +430,16 @@ h3 {
 
 .hero-campaign .btn-ghost,
 .page-hero .btn-ghost {
-  color: var(--paper);
-  border-color: var(--gold);
+  color: var(--ink);
+  border-color: var(--ink);
 }
 
 .hero-campaign .btn-ghost:hover,
-.page-hero .btn-ghost:hover,
+.page-hero .btn-ghost:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
 .campaign-close .btn-ghost:hover {
   background: var(--gold);
   color: var(--ink);
@@ -476,8 +491,8 @@ h3 {
 
 .hero-campaign,
 .page-hero {
-  background: var(--band-ink);
-  color: var(--on-ink);
+  background: var(--paper);
+  color: var(--ink);
   padding: 48px 0 56px;
   border-bottom: 1px solid var(--gold);
 }
@@ -493,28 +508,28 @@ h3 {
 
 .hero-campaign .kicker,
 .page-hero .kicker {
-  color: var(--gold);
+  color: var(--accent);
 }
 
 .hero-campaign .lede,
 .page-hero .lede {
-  color: var(--on-ink-muted);
+  color: var(--muted);
   font-size: 1.12rem;
   max-width: 44rem;
 }
 
 .hero-campaign h1,
 .page-hero h1 {
-  color: var(--paper);
+  color: var(--ink);
   max-width: 18ch;
 }
 
 .hero-list {
-  color: var(--gold-soft);
+  color: var(--ink);
 }
 
 .hero-campaign .hero-list {
-  color: var(--gold-soft);
+  color: var(--ink);
   font-weight: 700;
 }
 
@@ -523,6 +538,7 @@ h3 {
 }
 
 .sheet {
+  background: var(--paper);
   padding: 64px var(--gutter) 96px;
 }
 
@@ -950,7 +966,7 @@ details.faq-item .answer p:last-child {
 .field select:focus-visible,
 .field textarea:focus-visible {
   border-color: var(--focus);
-  box-shadow: 0 0 0 3px rgba(196, 163, 90, 0.28);
+  box-shadow: 0 0 0 3px rgba(224, 177, 42, 0.28);
 }
 
 .checks {
