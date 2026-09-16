@@ -34,7 +34,7 @@
     var data = new FormData(form);
     var needs = data.getAll("need");
     var lines = [
-      "Security in Social — demo / waitlist request",
+      "Security in Social demo / waitlist request",
       "SAMPLE form stub. No backend. Domain not published (NEED INPUT).",
       "",
       "Name: " + (data.get("name") || ""),

@@ -1,6 +1,6 @@
-# Security in Social — public product site
+# Security in Social public product site
 
-Hearing-ready SSD **Medical Source Statements (MSS)**, **physical RFC**, and **mental MRFC**. Transparency pattern (clear steps, flat SAMPLE pricing, stand-by integrity). **Security in Social brand only.**
+Hearing-ready SSD **Medical Source Statements (MSS)**, **physical RFC**, and **mental MRFC**. Transparency pattern (clear steps, flat list pricing at 75% of cited industry, stand-by integrity). **Security in Social brand only.**
 
 This is the public product marketing site for Matt’s demo. It is **not** the partner learning dashboard (Progress / Lessons / Ask).
 
@@ -30,7 +30,7 @@ Nav and footer are duplicated on every page so the demo works without a build st
 
 - Lead with hearing-ready SSD MSS / physical RFC / mental MRFC. Do not lead with “IMO”.
 - MD/DO is the sole clinical gate. Bots prepare. Humans attest. Decline when unsupported.
-- Pricing is **SAMPLE** soft anchors only (screen ~$199 · mental MRFC ~$400 · physical RFC ~$600). Hard ASP and clinician fee are **NEED INPUT**.
+- Pricing is **SiS list** at 75% of cited industry upfront: screen **$149**, mental MRFC **$300**, physical RFC **$450**. Industry cites: $199 Dr. Kaako, $400 Essential Veteran Services, $600 Dr. Kaako. Clinician attestation fee is **NEED INPUT** if billed separate.
 - No percent of benefits. No outcome guarantees. No invented doctor credentials.
 - SAMPLE PHI language only. No live claimant records.
 - Claim Climbers appears **once**, on For firms, as first operator customer (ops). Not co-brand. No Claim Climbers logo, colors, fonts, or VA nexus copy.

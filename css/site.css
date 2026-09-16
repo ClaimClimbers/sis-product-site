@@ -1,4 +1,4 @@
-/* Security in Social — Direction A editorial.
+/* Security in Social. Direction A editorial.
    Paper + ink + one deep gold. Distinct from Claim Climbers.com. */
 
 :root {
@@ -18,7 +18,7 @@
   --serif: "Newsreader", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", "Segoe UI", "Helvetica Neue", system-ui, sans-serif;
   --radius: 16px;
-  --max: 1120px;
+  --max: 1080px;
   --measure: 38rem;
   --gutter: 24px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
