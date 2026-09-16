@@ -506,7 +506,23 @@ body[data-page="home"] .hero-campaign {
 body[data-page="home"] .hero-campaign .lede {
   font-size: 1.05rem;
   line-height: 1.5;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
+}
+
+body[data-page="home"] .hero-alt {
+  color: var(--on-ink-muted);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  margin: 0 0 12px;
+  max-width: 42rem;
+}
+
+body[data-page="home"] .hero-explain {
+  color: var(--on-ink-muted);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  margin: 0 0 10px;
+  max-width: 42rem;
 }
 
 body[data-page="home"] .hero-list {
@@ -572,7 +588,7 @@ body[data-page="pricing"] .card {
 }
 
 body[data-page="home"] .card-grid {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1.1fr 0.9fr;
 }
 
 body[data-page="home"] .sheet > .card-grid {
@@ -1548,28 +1564,60 @@ body[data-page="pricing"] .pricing-strip .card .price {
   box-shadow: 0 18px 40px rgba(7, 9, 13, 0.08);
 }
 
-.card .actions {
-  margin-top: 8px;
+.card.card-alt {
+  border: 1px solid var(--line-on-white);
 }
 
-body[data-page="pricing"] .pricing-lead {
+.price-term {
+  margin: -4px 0 10px;
+  color: var(--ink-muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.card .actions {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+body[data-page="pricing"] .pricing-tracks {
+  grid-template-columns: 1.15fr 0.85fr;
   margin: 0;
 }
 
-body[data-page="pricing"] .pricing-lead .card {
+body[data-page="pricing"] .pricing-tracks .card-now {
   padding: 26px 28px 22px;
 }
 
-body[data-page="pricing"] .pricing-lead .price {
-  font-size: clamp(4.2rem, 7vw, 5.6rem);
+body[data-page="pricing"] .pricing-tracks .card-now .price {
+  font-size: clamp(3.6rem, 6vw, 5rem);
   line-height: 0.9;
   letter-spacing: -0.05em;
   color: var(--ink);
   margin: 2px 0 8px;
 }
 
-body[data-page="pricing"] .pricing-lead h3 {
+body[data-page="pricing"] .pricing-tracks .card-now h3 {
   font-size: clamp(1.7rem, 2.4vw, 2.1rem);
+}
+
+body[data-page="pricing"] .pricing-tracks .card-alt {
+  padding: 24px 22px 20px;
+}
+
+body[data-page="pricing"] .pricing-tracks .card-alt .price {
+  font-size: clamp(2.6rem, 4vw, 3.4rem);
+  color: var(--ink);
+}
+
+body[data-page="pricing"] .pricing-strip .btn-ghost {
+  color: var(--ink);
+  border-color: var(--gold);
+}
+
+body[data-page="pricing"] .pricing-strip .btn-ghost:hover {
+  background: var(--gold);
+  color: var(--gold-ink);
 }
 
 body[data-page="pricing"] .pricing-waitlist .card-grid {
@@ -1590,6 +1638,7 @@ body[data-page="pricing"] .pricing-waitlist .card .price {
 }
 
 #review,
+#app,
 #waitlist {
   scroll-margin-top: 128px;
 }
@@ -1600,7 +1649,8 @@ body[data-page="pricing"] .pricing-waitlist .card .price {
 
 @media (max-width: 980px) {
 
-  body[data-page="pricing"] .pricing-waitlist .card-grid {
+  body[data-page="pricing"] .pricing-waitlist .card-grid,
+  body[data-page="pricing"] .pricing-tracks {
     grid-template-columns: 1fr;
   }
 }

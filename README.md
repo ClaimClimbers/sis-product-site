@@ -30,16 +30,18 @@ Primary nav is six links: Home · For you · For family · How it works · Prici
 
 ## Locks
 
-- Public Home leads with DIY Social Security + medical record review. Primary CTA: **Start a record review**. Secondary: **See how it works**.
+- Public Home leads with DIY Social Security + medical record review. Primary CTA: **Start a record review**. Secondary: **See the app plan** · **See how it works**.
 - Public copy is layman first. Built so an older, non-medical Social Security disability claimant can understand the file.
 - Never AI or bots.
-- **PRICING-LOCK-395-REVIEW-ONLY:** DIY full medical record review **$395** is the only public SKU (Home + Pricing lead). List price. Discounts later (not on site). Do **not** put “75% of industry” framing on this SKU. Doctor-letter SKUs are **out of the public site**.
+- **PRICING-LOCK-395-PLUS-APP-129:** TWO-TRACK. Lead is DIY full medical record review **$395 lifetime**. Alt is the **app at $129.99/year** (parse/extract + plain-English answers on disability / health insurance / retirement). Doctor-letter SKUs stay **out of the public site**. Do not frame $395 as the only SKU. Do not make the app the primary offer. No trial auto-charge copy.
+- **Tip #87 lead (frozen):** A full medical record review for Social Security disability, explained in plain English so you understand your claim before you apply — $395 lifetime.
+- **App alt (separate, not inside Tip #87):** Or the app for $129.99 a year: scan and extract your records, then get plain-English answers on disability, health insurance, and retirement.
 - No percent of benefits. No outcome guarantees. No invented doctor credentials.
 - SAMPLE language only. No live claimant records.
 - SSDI only in UI copy.
 - Claim Climbers appears **once**, on For firms, as first operator customer (ops). Not co-brand. No Claim Climbers logo, colors, or fonts.
 - Domain + legal entity remain deferred. Do not buy or invent a domain.
-- No em dashes in public copy.
+- Tip #87 lead keeps its frozen em dash. Do not reopen that sentence.
 
 ## Local
 
@@ -65,4 +67,4 @@ Campaign Ink. Newsreader + Source Sans 3. White paper canvas (`#ffffff`). Dark m
 
 ## Contact form
 
-Static stub. Composes a request in the browser. No backend. Public inbox is NEED INPUT. Primary ask is a $395 records review.
+Static stub. Composes a request in the browser. No backend. Public inbox is NEED INPUT. Primary ask is a $395 lifetime records review. App plan is the yearly alternate.

@@ -26,6 +26,10 @@
     var reviewBox = document.getElementById("need-review");
     if (reviewBox) reviewBox.checked = true;
   }
+  if (hash === "#app") {
+    var appBox = document.getElementById("need-app");
+    if (appBox) appBox.checked = true;
+  }
 
   var form = document.getElementById("demo-form");
   if (!form) return;
