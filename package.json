@@ -2,7 +2,7 @@
   "name": "sis-product-site",
   "private": true,
   "version": "0.1.0",
-  "description": "Security in Social public product site. DIY Social Security help and medical record review. Doctor letters coming later. Static HTML. No build step.",
+  "description": "Security in Social public product site. DIY Social Security help, $395 lifetime medical record review, and $129.99/year app alt. Letters OUT. Static HTML. No build step.",
   "scripts": {
     "start": "python3 -m http.server 3000"
   }
