@@ -366,6 +366,10 @@ body[data-page="pricing"] .card {
   padding: 18px 20px 16px;
 }
 
+body[data-page="home"] .card-grid {
+  margin-bottom: 24px;
+}
+
 .page-head {
   max-width: var(--measure);
   margin: 0 0 36px;
