@@ -499,6 +499,28 @@ h3 {
   font-size: clamp(2.4rem, 4.8vw, 3.7rem);
 }
 
+body[data-page="home"] .hero-campaign {
+  padding: 32px 0 28px;
+}
+
+body[data-page="home"] .hero-campaign .lede {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+body[data-page="home"] .hero-list {
+  margin-top: 8px;
+}
+
+body[data-page="home"] .hero-copy .actions {
+  margin: 12px 0 0;
+}
+
+body[data-page="home"] .trust-chips {
+  margin-top: 12px;
+}
+
 .hero-list {
   color: var(--gold-soft);
 }
