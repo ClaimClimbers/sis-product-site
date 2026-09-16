@@ -7,7 +7,7 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 ## Share intent
 
 - **What to share:** this repo, deployed by Pulse to Vercel as a static site. Send the resulting `https://….vercel.app` URL. Do not invent a custom domain.
-- **Who it is for:** Matt (partner) walking the product narrative. Disability-firm operators who need an MSS / RFC / MRFC packet.
+- **Who it is for:** Matt (partner) walking the product narrative. Claimants, family helpers, and disability-firm operators who need an MSS / RFC / MRFC packet.
 - **Who merges:** Security in Social CEO. **Sam does not merge.**
 - **What not to share as this product:** `sis-partner-git-1730` (partner learning). This site has no progress bars and no lesson library.
 
@@ -16,10 +16,12 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 | Page | File |
 | --- | --- |
 | Home | `index.html` |
+| For you | `for-you.html` |
+| For family | `for-family.html` |
+| For firms | `for-firms.html` |
 | How it works | `how-it-works.html` |
 | What you get | `what-you-get.html` |
 | Pricing | `pricing.html` |
-| For firms | `for-firms.html` |
 | Clinical gate | `clinical-gate.html` |
 | FAQ | `faq.html` |
 | Contact | `contact.html` |
@@ -29,7 +31,7 @@ Nav and footer are duplicated on every page so the demo works without a build st
 ## Locks
 
 - Lead with hearing-ready SSD MSS / physical RFC / mental MRFC. Do not lead with “IMO”.
-- MD/DO is the sole clinical gate. Bots prepare. Humans attest. Decline when unsupported.
+- MD/DO is the sole clinical gate. Records specialists assemble packets and draft language from the exhibits. Licensed MD/DO attests or declines. Decline when unsupported.
 - Pricing is **SiS list** at 75% of cited industry upfront: screen **$149**, mental MRFC **$300**, physical RFC **$450**. Industry cites: $199 Dr. Kaako, $400 Essential Veteran Services, $600 Dr. Kaako. Clinician attestation fee is **NEED INPUT** if billed separate.
 - No percent of benefits. No outcome guarantees. No invented doctor credentials.
 - SAMPLE PHI language only. No live claimant records.
@@ -56,7 +58,7 @@ No build step. Framework preset **Other**. Root of this repo is the upload.
 
 ## Visual
 
-Direction A editorial: Newsreader + Source Sans 3, ink / paper / gold, radius 16, measure ~38rem. Distinct from Claim Climbers.com.
+Direction A campaign: Newsreader + Source Sans 3, ink mast and footer, hard gold CTAs, SiS lockup, radius 16. Distinct from Claim Climbers.com. No Claim Climbers colors or fonts.
 
 ## Contact form
 
