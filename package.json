@@ -2,7 +2,7 @@
   "name": "sis-product-site",
   "private": true,
   "version": "0.1.0",
-  "description": "Security in Social public product site. Hearing-ready SSD MSS, physical RFC, and mental MRFC. Static HTML. No build step.",
+  "description": "Security in Social public product site. Doctor-signed letters about work limits for SSDI hearings. Static HTML. No build step.",
   "scripts": {
     "start": "python3 -m http.server 3000"
   }
