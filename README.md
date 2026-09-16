@@ -29,7 +29,7 @@ Nav and footer are duplicated on every page so the demo works without a build st
 ## Locks
 
 - Lead with hearing-ready SSD MSS / physical RFC / mental MRFC. Do not lead with “IMO”.
-- MD/DO is the sole clinical gate. Bots prepare. Humans attest. Decline when unsupported.
+- MD/DO is the sole clinical gate. Records specialists assemble packets and draft language from the exhibits. Licensed MD/DO attests or declines. Decline when unsupported.
 - Pricing is **SiS list** at 75% of cited industry upfront: screen **$149**, mental MRFC **$300**, physical RFC **$450**. Industry cites: $199 Dr. Kaako, $400 Essential Veteran Services, $600 Dr. Kaako. Clinician attestation fee is **NEED INPUT** if billed separate.
 - No percent of benefits. No outcome guarantees. No invented doctor credentials.
 - SAMPLE PHI language only. No live claimant records.
