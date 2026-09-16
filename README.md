@@ -35,7 +35,7 @@ Primary nav is six links: Home · For you · For family · How it works · Prici
 - Public copy is layman first. Acronyms (MSS, RFC, MRFC) in parentheses or on Pricing / For firms.
 - Licensed MD or DO is the sole clinical gate when letters ship. Records specialists assemble packets and draft language from the file. Decline when unsupported.
 - Never AI or bots.
-- Pricing is **SiS list** at 75% of cited industry upfront: review **$149** first. Mental work-limits letter **$300** and physical work-limits letter **$450** stay listed as coming later / waitlist. Industry cites (SAMPLE) stay named on Pricing: $199 Dr. Kaako, $400 Essential Veteran Services, $600 Dr. Kaako. Clinician sign-off fee is **NEED INPUT** if billed separate.
+- Pricing is **SiS list**: DIY full medical record review **$99** (beachhead / Home lead). SAMPLE cited industry screen **$199** (Dr. Kaako). Do **not** claim 75% on the review SKU. Mental work-limits letter **$300** and physical work-limits letter **$450** stay listed as coming later / waitlist (75% framing OK when letters unlock). Industry cites (SAMPLE) stay named on Pricing: $199 Dr. Kaako, $400 Essential Veteran Services, $600 Dr. Kaako. Clinician sign-off fee is **NEED INPUT** if billed separate.
 - No percent of benefits. No outcome guarantees. No invented doctor credentials.
 - SAMPLE language only. No live claimant records.
 - SSDI only in UI copy. Essential Veteran Services appears only as a Pricing industry cite.
