@@ -45,7 +45,7 @@
     var needs = data.getAll("need");
     var lines = [
       "Security in Social record review request",
-      "SAMPLE form stub. No backend. Copy this request and send it to the person who shared this site. A public inbox will be listed on Contact when the domain is live.",
+      "This form stays on your device. Nothing was sent to a server. Copy this request and send it to the person who shared this site. A public inbox will be listed on Contact when one is live.",
       "",
       "Name: " + (data.get("name") || ""),
       "Firm: " + (data.get("firm") || ""),
