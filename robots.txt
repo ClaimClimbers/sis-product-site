@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sis-product-site.vercel.app/sitemap.xml
+Sitemap: https://securityinsocial.com/sitemap.xml
