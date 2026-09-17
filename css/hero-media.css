@@ -15,6 +15,11 @@
   aspect-ratio: 4 / 3;
 }
 
+/* Audience stills are 1280×720. Do not crop the how-it-works sequence. */
+.page-hero .hero-media img {
+  aspect-ratio: 16 / 9;
+}
+
 @media (max-width: 980px) {
   .hero-media {
     margin-top: 8px;
