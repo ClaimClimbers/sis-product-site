@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var mast = document.querySelector(".mast");
+  var mast = document.querySelector(".mast") || document.querySelector(".site-top");
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.getElementById("site-nav");
 
