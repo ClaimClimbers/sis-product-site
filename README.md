@@ -28,8 +28,12 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 | SSDI medical record review | `ssdi-medical-record-review.html` |
 | Glossary | `glossary.html` |
 | Articles | `articles.html` |
+| SSDI medical records checklist | `ssdi-medical-records-checklist.html` |
+| SSDI vs SSI | `ssdi-vs-ssi.html` |
+| SSDI denied next steps | `ssdi-denied-next-steps.html` |
+| How to apply for SSDI | `how-to-apply-ssdi.html` |
 
-Primary nav is six links: Home · For you · For family · How it works · Pricing · Contact. For firms, What you get, Record review, Doctor review, FAQ, Glossary, Articles, and Methods live in the footer. The article body template is `article.html` (not a live URL; not in the sitemap).
+Primary nav is six links: Home · For you · For family · How it works · Pricing · Contact. For firms, What you get, Record review, Doctor review, FAQ, Glossary, Articles, journey articles, and Methods live in the footer. Primary nav stays six links. The article body template is `article.html` (not a live URL; not in the sitemap).
 
 ## Locks
 
