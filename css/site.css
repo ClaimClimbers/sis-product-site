@@ -1749,3 +1749,71 @@ body[data-page="glossary"] .close-cta .actions {
     grid-template-columns: 1fr;
   }
 }
+
+/* Journey article stubs (no featured photo) */
+.page-hero.article-hero h1 {
+  max-width: 24ch;
+  font-size: clamp(2.05rem, 4.2vw, 3.15rem);
+}
+
+.sheet .prose {
+  max-width: 42rem;
+}
+
+.sheet .prose > h2:first-child {
+  margin-top: 0;
+}
+
+.sheet .prose h2 {
+  margin-top: 48px;
+}
+
+.sheet .prose p {
+  margin: 0 0 1em;
+  color: var(--muted);
+  max-width: var(--measure);
+}
+
+.sheet .prose h3 {
+  margin-top: 28px;
+}
+
+.sheet .prose ul,
+.sheet .prose ol {
+  margin: 0 0 1.25em;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  max-width: var(--measure);
+}
+
+.sheet .prose .faq {
+  margin-top: 12px;
+}
+
+.compare-table {
+  width: 100%;
+  max-width: 46rem;
+  border-collapse: collapse;
+  margin: 0 0 28px;
+  font-size: 0.98rem;
+}
+
+.compare-table th,
+.compare-table td {
+  border: 1px solid var(--line-on-white);
+  text-align: left;
+  vertical-align: top;
+  padding: 12px 14px;
+}
+
+.compare-table th {
+  background: var(--paper-2);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.compare-table td {
+  color: var(--muted);
+}
