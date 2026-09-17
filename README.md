@@ -25,8 +25,10 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 | Clinical gate | `clinical-gate.html` |
 | FAQ | `faq.html` |
 | Contact | `contact.html` |
+| SSDI medical record review | `ssdi-medical-record-review.html` |
+| Glossary | `glossary.html` |
 
-Primary nav is six links: Home · For you · For family · How it works · Pricing · Contact. For firms, What you get, Doctor review, and FAQ live in the footer.
+Primary nav is six links: Home · For you · For family · How it works · Pricing · Contact. For firms, What you get, Record review, Doctor review, FAQ, Glossary, and Methods live in the footer.
 
 ## Locks
 
