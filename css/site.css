@@ -1637,6 +1637,101 @@ body[data-page="pricing"] .pricing-waitlist .card .price {
   max-width: 46rem;
 }
 
+/* Glossary enrichment: longer entries, jump list, contrast table */
+body[data-page="glossary"] .sheet > h2 {
+  margin-top: 56px;
+  scroll-margin-top: 96px;
+}
+
+body[data-page="glossary"] .sheet > h2:first-of-type {
+  margin-top: 0;
+}
+
+body[data-page="glossary"] .sheet > p {
+  max-width: var(--measure);
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+
+body[data-page="glossary"] .term-jump {
+  margin: 28px 0 48px;
+  padding: 20px 24px;
+  border: 1px solid var(--line-on-white);
+  border-radius: var(--radius);
+  max-width: 40rem;
+}
+
+body[data-page="glossary"] .term-jump .kicker {
+  color: var(--gold-deep);
+  margin-bottom: 10px;
+}
+
+body[data-page="glossary"] .term-jump ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+body[data-page="glossary"] .term-jump li {
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+
+body[data-page="glossary"] .term-jump a {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+body[data-page="glossary"] .term-jump a:hover {
+  color: var(--gold);
+}
+
+body[data-page="glossary"] .table-wrap {
+  overflow-x: auto;
+  margin: 8px 0 24px;
+}
+
+body[data-page="glossary"] table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  min-width: 36rem;
+}
+
+body[data-page="glossary"] th,
+body[data-page="glossary"] td {
+  text-align: left;
+  vertical-align: top;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-muted);
+}
+
+body[data-page="glossary"] thead th {
+  background: var(--paper-2);
+  color: var(--ink);
+  font-weight: 800;
+  font-size: 0.92rem;
+  border-bottom: 2px solid var(--gold);
+}
+
+body[data-page="glossary"] tbody th {
+  color: var(--ink);
+  font-weight: 700;
+  width: 9.5rem;
+}
+
+body[data-page="glossary"] .faq {
+  margin: 8px 0 48px;
+}
+
+body[data-page="glossary"] .close-cta {
+  margin-top: 8px;
+}
+
+body[data-page="glossary"] .close-cta .actions {
+  margin: 16px 0 12px;
+}
+
 #review,
 #app,
 #waitlist {
