@@ -1,0 +1,51 @@
+/* Security in Social · TRUE STANDARD Campaign Ink tokens (elevated)
+   Design Soft CLEAR · Letters OUT · no cream · desk + product
+   Source: Design Soft CLEAR Ready pack tokens.css
+   Stamp: 2026-09-17 ~6:02pm CT · Design */
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+
+:root {
+  --ink: #07090d;
+  --ink-2: #12161e;
+  --ink-3: #1a2030;
+  --paper: #ffffff;
+  --paper-2: #f4f5f7;
+  --panel: #ffffff;
+  --line: rgba(7, 9, 13, 0.12);
+  --line-strong: rgba(7, 9, 13, 0.24);
+  --muted: #3d4450;
+  --faint: #6b7280;
+  --gold: #c9920f;
+  --gold-bright: #e0b12a;
+  --gold-hover: #e0b12a;
+  --gold-soft: #fff4cc;
+  --gold-deep: #8a6410;
+  --gold-line: rgba(201, 146, 15, 0.48);
+  --accent: #0f6b5c;
+  --accent-bright: #12a594;
+  --accent-soft: #e6f7f4;
+  --focus: #e0b12a;
+  --on-ink: #ffffff;
+  --danger: #7a2e2e;
+  --danger-soft: #f3e8e8;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", "Segoe UI", "Helvetica Neue", system-ui, sans-serif;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --cta-min: 56px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --desk-max: 1200px;
+  --rail-w: 240px;
+  --care-w: 320px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-quiet: 0 1px 0 rgba(7, 9, 13, 0.04), 0 8px 24px rgba(7, 9, 13, 0.06);
+}
+
+/* Forbidden: cream #f4efe4 / parchment · neon · Freepik toy · Direction A cream
+   · purple AI gradients · chatbot bubble walls as hero · equal admin card grids
+   · em dashes · MD/DO gate copy · selling letters · AI/bot chrome words */
