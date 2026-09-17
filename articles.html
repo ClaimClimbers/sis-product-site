@@ -61,9 +61,9 @@
         <nav class="topic-bar" aria-label="Browse by topic">
           <p class="topic-bar-label">Topics</p>
           <ul class="topic-chips">
-            <li><a href="#library" aria-current="true" data-topic="all">All <span class="chip-count">12</span></a></li>
-            <li><a href="#topic-records" data-topic="records">Records <span class="chip-count">3</span></a></li>
-            <li><a href="#topic-apply" data-topic="apply">Apply <span class="chip-count">2</span></a></li>
+            <li><a href="#library" aria-current="true" data-topic="all">All <span class="chip-count">13</span></a></li>
+            <li><a href="#topic-records" data-topic="records">Records <span class="chip-count">4</span></a></li>
+            <li><a href="#topic-apply" data-topic="apply">Apply <span class="chip-count">1</span></a></li>
             <li><a href="#topic-conditions" data-topic="conditions">Conditions <span class="chip-count">3</span></a></li>
             <li><a href="#topic-family" data-topic="family">Family <span class="chip-count">1</span></a></li>
             <li><a href="#topic-hearings" data-topic="hearings">Hearings <span class="chip-count">1</span></a></li>
@@ -95,7 +95,7 @@
       <div class="wrap">
         <div class="library-meta">
           <p class="section-label" style="margin:0">All articles</p>
-          <p class="count">Showing 12 guides · 2 live · rest coming later</p>
+          <p class="count">Showing 13 guides · 6 live · rest coming later</p>
         </div>
 
         <ul class="card-grid is-library">
@@ -121,17 +121,29 @@
               </div>
             </a>
           </li>
-          <li data-topic="apply" id="topic-apply">
-            <div class="card is-sample">
-              <div class="card-thumb" aria-hidden="true"><div class="thumb-ph">Folder and checklist<span>Apply</span></div></div>
-              <div class="card-body">
-                <p class="tag">Apply</p>
-                <p class="sample-badge">SAMPLE · coming later</p>
-                <h3>Gathering records before you apply</h3>
-                <p class="dek">What to collect first, what can wait, and how to avoid sending a thin file.</p>
-                <p class="meta">Coming later</p>
+          <li data-topic="records">
+            <a class="card" href="/ssdi-medical-records-checklist">
+              <div class="card-thumb">
+                <img src="images/ssdi-medical-records-checklist-card-16x10.jpg" width="1200" height="750" alt="Medical Records Checklist. Folder and checklist on a clean desk in soft daylight.">
               </div>
-            </div>
+              <div class="card-body">
+                <p class="tag">Records</p>
+                <h3>What medical records to gather for SSDI</h3>
+                <p class="dek">A plain checklist of visit notes, imaging, tests, therapy, medications, hospital records, and gaps.</p>
+                <p class="meta">Live</p>
+              </div>
+            </a>
+          </li>
+          <li data-topic="explain">
+            <a class="card" href="/ssdi-vs-ssi">
+              <div class="card-thumb" aria-hidden="true"><div class="thumb-ph">Two program folders<span>Explain</span></div></div>
+              <div class="card-body">
+                <p class="tag">Explain</p>
+                <h3>SSDI vs SSI</h3>
+                <p class="dek">Work-history insurance vs needs-based SSI. Same strict medical idea. Different money rules.</p>
+                <p class="meta">Live</p>
+              </div>
+            </a>
           </li>
           <li data-topic="family" id="topic-family">
             <div class="card is-sample">
@@ -180,17 +192,27 @@
             </div>
           </li>
 
-          <li data-topic="explain">
-            <div class="card is-sample">
-              <div class="card-thumb" aria-hidden="true"><div class="thumb-ph">Honest no on paper<span>Explain</span></div></div>
+          <li data-topic="apply" id="topic-apply">
+            <a class="card" href="/how-to-apply-ssdi">
+              <div class="card-thumb" aria-hidden="true"><div class="thumb-ph">Application checklist<span>Apply</span></div></div>
               <div class="card-body">
-                <p class="tag">Explain</p>
-                <p class="sample-badge">SAMPLE · coming later</p>
-                <h3>How we say no when the records are thin</h3>
-                <p class="dek">Saying no is the product working. We do not invent diagnoses to fill a hole.</p>
-                <p class="meta">Coming later</p>
+                <p class="tag">Apply</p>
+                <h3>How to apply for SSDI</h3>
+                <p class="dek">Where to apply with Social Security, and what to have ready. We do not file the claim.</p>
+                <p class="meta">Live</p>
               </div>
-            </div>
+            </a>
+          </li>
+          <li data-topic="hearings" id="topic-hearings">
+            <a class="card" href="/ssdi-denied-next-steps">
+              <div class="card-thumb" aria-hidden="true"><div class="thumb-ph">Denial notice and calendar<span>Hearings</span></div></div>
+              <div class="card-body">
+                <p class="tag">Hearings</p>
+                <h3>SSDI denied: what happens next</h3>
+                <p class="dek">Plain steps after a denial. Deadlines matter. This is not legal advice.</p>
+                <p class="meta">Live</p>
+              </div>
+            </a>
           </li>
           <li data-topic="conditions">
             <div class="card is-sample">
@@ -216,18 +238,6 @@
               </div>
             </div>
           </li>
-          <li data-topic="apply">
-            <div class="card is-sample">
-              <div class="card-thumb" aria-hidden="true"><div class="thumb-ph">Application checklist<span>Apply</span></div></div>
-              <div class="card-body">
-                <p class="tag">Apply</p>
-                <p class="sample-badge">SAMPLE · coming later</p>
-                <h3>Work history that matches the forms</h3>
-                <p class="dek">A calm way to list jobs so the file tells one clear story.</p>
-                <p class="meta">Coming later</p>
-              </div>
-            </div>
-          </li>
           <li data-topic="records">
             <div class="card is-sample">
               <div class="card-thumb" aria-hidden="true"><div class="thumb-ph">Imaging and notes<span>Records</span></div></div>
@@ -236,18 +246,6 @@
                 <p class="sample-badge">SAMPLE · coming later</p>
                 <h3>Imaging, labs, and what still needs a narrative</h3>
                 <p class="dek">Tests alone rarely carry a claim. Pair them with function language.</p>
-                <p class="meta">Coming later</p>
-              </div>
-            </div>
-          </li>
-          <li data-topic="hearings" id="topic-hearings">
-            <div class="card is-sample">
-              <div class="card-thumb" aria-hidden="true"><div class="thumb-ph">Hearing prep notes<span>Hearings</span></div></div>
-              <div class="card-body">
-                <p class="tag">Hearings</p>
-                <p class="sample-badge">SAMPLE · coming later</p>
-                <h3>Before a hearing: gaps you can still close</h3>
-                <p class="dek">What to check in the file early so hearing day is not a surprise.</p>
                 <p class="meta">Coming later</p>
               </div>
             </div>
@@ -285,6 +283,10 @@
         <a href="/faq">FAQ</a>
         <a href="/glossary">Glossary</a>
         <a href="/articles" aria-current="page">Articles</a>
+        <a href="/ssdi-medical-records-checklist">Records checklist</a>
+        <a href="/ssdi-vs-ssi">SSDI vs SSI</a>
+        <a href="/ssdi-denied-next-steps">Denied next steps</a>
+        <a href="/how-to-apply-ssdi">How to apply</a>
         <a href="/methods">Methods</a>
         <a href="/pricing">Pricing</a>
         <a href="/contact">Contact</a>

@@ -1750,10 +1750,24 @@ body[data-page="glossary"] .close-cta .actions {
   }
 }
 
-/* Journey article stubs (no featured photo) */
+/* Journey articles */
 .page-hero.article-hero h1 {
   max-width: 24ch;
   font-size: clamp(2.05rem, 4.2vw, 3.15rem);
+}
+
+.article-featured {
+  margin: 0 0 40px;
+  max-width: 46rem;
+}
+
+.article-featured img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--ink-2);
 }
 
 .sheet .prose {
