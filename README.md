@@ -27,8 +27,9 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 | Contact | `contact.html` |
 | SSDI medical record review | `ssdi-medical-record-review.html` |
 | Glossary | `glossary.html` |
+| Articles | `articles.html` |
 
-Primary nav is six links: Home · For you · For family · How it works · Pricing · Contact. For firms, What you get, Record review, Doctor review, FAQ, Glossary, and Methods live in the footer.
+Primary nav is six links: Home · For you · For family · How it works · Pricing · Contact. For firms, What you get, Record review, Doctor review, FAQ, Glossary, Articles, and Methods live in the footer. The article body template is `article.html` (not a live URL; not in the sitemap).
 
 ## Locks
 
