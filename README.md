@@ -22,7 +22,7 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 | How it works | `how-it-works.html` |
 | What you get | `what-you-get.html` |
 | Pricing | `pricing.html` |
-| Clinical gate | `clinical-gate.html` |
+| When we say no | `clinical-gate.html` |
 | FAQ | `faq.html` |
 | Contact | `contact.html` |
 | SSDI medical record review | `ssdi-medical-record-review.html` |
@@ -33,7 +33,7 @@ This is the public product marketing site for Matt’s demo. It is **not** the p
 | SSDI denied next steps | `ssdi-denied-next-steps.html` |
 | How to apply for SSDI | `how-to-apply-ssdi.html` |
 
-Primary nav is six links: Home · For you · For family · How it works · Pricing · Contact. For firms, What you get, Record review, Doctor review, FAQ, Glossary, Articles, journey articles, and Methods live in the footer. Primary nav stays six links. The article body template is `article.html` (not a live URL; not in the sitemap).
+Primary nav is six links: Home · For you · For family · How it works · Pricing · Contact. For firms, What you get, Record review, When we say no, FAQ, Glossary, Articles, journey articles, and Methods live in the footer. Primary nav stays six links. The article body template is `article.html` (not a live URL; not in the sitemap).
 
 ## Locks
 
