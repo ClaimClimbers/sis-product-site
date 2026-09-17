@@ -67,4 +67,4 @@ Campaign Ink. Newsreader + Source Sans 3. White paper canvas (`#ffffff`). Dark m
 
 ## Contact form
 
-Static stub. Composes a request in the browser. No backend. Public inbox is NEED INPUT. Primary ask is a $395 lifetime records review. App plan is the yearly alternate.
+Static stub. Composes a request in the browser. No backend. Copy the request and send it to the person who shared this site. A public inbox will be listed on Contact when the domain is live. Do not invent an email or domain. Primary ask is a $395 lifetime records review. App plan is the yearly alternate.
