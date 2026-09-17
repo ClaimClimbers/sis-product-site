@@ -34,14 +34,14 @@ Primary nav is six links: Home · For you · For family · How it works · Prici
 - Public copy is layman first. Built so an older, non-medical Social Security disability claimant can understand the file.
 - Never AI or bots.
 - **PRICING-LOCK-395-PLUS-APP-129:** TWO-TRACK. Lead is DIY full medical record review **$395 lifetime**. Alt is the **app at $129.99/year** (parse/extract + plain-English answers on disability / health insurance / retirement). Doctor-letter SKUs stay **out of the public site**. Do not frame $395 as the only SKU. Do not make the app the primary offer. No trial auto-charge copy.
-- **Tip #87 lead (frozen):** A full medical record review for Social Security disability, explained in plain English so you understand your claim before you apply — $395 lifetime.
+- **Tip #87 lead (frozen):** A full medical record review for Social Security disability, explained in plain English so you understand your claim before you apply. $395 lifetime.
 - **App alt (separate, not inside Tip #87):** Or the app for $129.99 a year: scan and extract your records, then get plain-English answers on disability, health insurance, and retirement.
 - No percent of benefits. No outcome guarantees. No invented doctor credentials.
 - SAMPLE language only. No live claimant records.
 - SSDI only in UI copy.
 - Claim Climbers appears **once**, on For firms, as first operator customer (ops). Not co-brand. No Claim Climbers logo, colors, or fonts.
 - Domain + legal entity remain deferred. Do not buy or invent a domain.
-- Tip #87 lead keeps its frozen em dash. Do not reopen that sentence.
+- Tip #87 lead uses a period before $395 lifetime. Do not use an em dash.
 
 ## Local
 
@@ -67,4 +67,4 @@ Campaign Ink. Newsreader + Source Sans 3. White paper canvas (`#ffffff`). Dark m
 
 ## Contact form
 
-Static stub. Composes a request in the browser. No backend. Public inbox is NEED INPUT. Primary ask is a $395 lifetime records review. App plan is the yearly alternate.
+Static stub. Composes a request in the browser. No backend. Copy the request and send it to the person who shared this site. A public inbox will be listed on Contact when the domain is live. Do not invent an email or domain. Primary ask is a $395 lifetime records review. App plan is the yearly alternate.
