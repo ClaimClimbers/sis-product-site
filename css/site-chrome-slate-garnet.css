@@ -1010,9 +1010,8 @@ body[data-page="home"] .page-hero {
   margin-bottom: 0;
 }
 
-body[data-page="home"] .page-hero h1 {
-  font-size: clamp(2.5rem, 4.4vw, 3.5rem);
-  max-width: 16ch;
+body[data-page="home"] .hero-grid {
+  align-items: start;
 }
 
 body[data-page="home"] .hero-photo img {
