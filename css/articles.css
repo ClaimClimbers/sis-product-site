@@ -1,6 +1,6 @@
-/* Security in Social — Soft Clinic article layouts
-   Tokens and chrome come from tokens-soft-clinic.css + site-chrome-soft-clinic.css.
-   Do not restore Campaign Ink #07090d / #c9920f / #0f6b5c.
+/* Security in Social — Slate & Garnet article layouts
+   Tokens and chrome come from tokens-slate-garnet.css + site-chrome-slate-garnet.css.
+   Do not restore sage Soft Clinic or Campaign Ink.
    Letters OUT of CTA. No AI chrome. Chrome-only restyle of browse/template.
 */
 
@@ -103,7 +103,7 @@ body[data-page="article-template"] .section {
   }
 }
 
-/* Buttons / CTA (Soft Clinic via tokens + site-chrome) */
+/* Buttons / CTA (Slate & Garnet via tokens + site-chrome) */
 
 .btn {
   display: inline-flex;
@@ -168,7 +168,7 @@ body[data-page="article-template"] .section {
   font-size: 0.92rem;
 }
 
-/* Pack page-hero (white Soft Clinic card) lives in site-chrome-soft-clinic.css.
+/* Pack page-hero (white panel card) lives in site-chrome-slate-garnet.css.
    Do not flatten it back to a transparent Campaign Ink intro. */
 
 .page-hero .kicker {
@@ -873,7 +873,7 @@ body[data-page="article-template"] .section {
   justify-content: space-between;
   gap: 12px;
   padding: 12px var(--gutter);
-  background: rgba(36, 48, 44, 0.94);
+  background: rgba(31, 45, 61, 0.94);
   color: var(--on-ink);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
@@ -935,9 +935,9 @@ body[data-page="article-template"] .section {
   place-items: center;
   background: linear-gradient(
     135deg,
-    var(--accent-deep) 0%,
+    var(--accent-hover) 0%,
     var(--accent) 48%,
-    #4a917c 100%
+    var(--band) 100%
   );
   color: var(--on-accent);
   font-family: var(--sans);
