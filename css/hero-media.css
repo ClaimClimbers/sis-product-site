@@ -1,4 +1,4 @@
-/* Hero documentary still (Sam option 1). Not CSS folder toys. */
+/* Hero documentary still. Soft Clinic quiet panel, not Campaign Ink gold border. */
 .hero-media {
   margin: 0;
   min-width: 0;
@@ -8,9 +8,9 @@
   width: 100%;
   height: auto;
   border-radius: calc(var(--radius) + 2px);
-  border: 2px solid var(--gold-line);
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.42);
-  background: var(--ink-2);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-quiet);
+  background: var(--surface-2);
   object-fit: cover;
   aspect-ratio: 4 / 3;
 }
