@@ -76,8 +76,12 @@ h3,
   margin-inline: auto;
 }
 
-.section {
+body[data-page="articles"] .section,
+body[data-page="article-template"] .section {
   padding: 2.5rem 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 .section-tight {
@@ -93,7 +97,8 @@ h3,
     font-size: 1.125rem;
   }
 
-  .section {
+  body[data-page="articles"] .section,
+  body[data-page="article-template"] .section {
     padding: 3.25rem 0;
   }
 }
@@ -163,12 +168,8 @@ h3,
   font-size: 0.92rem;
 }
 
-/* ——— Page intro (index) ——— */
-.page-hero {
-  padding: 24px 32px 0;
-  background: transparent;
-  border-bottom: none;
-}
+/* Pack page-hero (white Soft Clinic card) lives in site-chrome-soft-clinic.css.
+   Do not flatten it back to a transparent Campaign Ink intro. */
 
 .page-hero .kicker {
   margin-bottom: 10px;
