@@ -1,6 +1,6 @@
 /* HISTORICAL Campaign Ink FAIL. Not loaded on public pages.
-   Soft Clinic tokens + css/site-chrome-soft-clinic.css are the live brand system.
-   Do not restore #07090d / #c9920f / #0f6b5c as the public chrome.
+   Live brand is Slate & Garnet: css/tokens-slate-garnet.css + css/site-chrome-slate-garnet.css.
+   Do not restore #07090d / #c9920f / #0f6b5c or sage Soft Clinic #f2f7f4 / #3a7d6a as public chrome.
 */
 
 :root {

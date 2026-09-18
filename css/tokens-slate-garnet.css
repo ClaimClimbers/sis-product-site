@@ -1,0 +1,115 @@
+/* Security in Social · Slate & Garnet · brand tokens v1 · 2026-09-18
+   Cool stone surfaces · slate ink text · garnet for action only · harbor-blue focus ring
+   Self-hosted Fraunces + DM Sans variable woff2. No Google Fonts required.
+   Never cream, sage Soft Clinic, Campaign Ink, or violet. */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/Fraunces-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/Fraunces-Variable-Italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Variable.woff2") format("woff2");
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Variable-Italic.woff2") format("woff2");
+  font-weight: 100 1000;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* Design Soft CLEAR Ready tokens */
+  --surface: #f4f4f2;
+  --surface-2: #e9eae6;
+  --panel: #ffffff;
+  --text: #1f2d3d;
+  --text-muted: #4a5563;
+  --accent: #9b2a35;
+  --accent-hover: #7f1f29;
+  --accent-soft: #f6e2e4;
+  --on-accent: #ffffff;
+  --band: #1f2d3d;
+  --on-band: #ffffff;
+  --accent-on-band: #eea3a8;
+  --border: #d6d9d6;
+  --border-strong: #7f8786;
+  --focus: #2b5d8c;
+  --danger: #8a2f2f;
+  --danger-soft: #f5e6e6;
+
+  /* type */
+  --serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --sans: "DM Sans", "Segoe UI", "Helvetica Neue", system-ui, sans-serif;
+
+  /* space · radius · shadow */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --space-6: 96px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --shadow-quiet: 0 1px 0 rgba(31, 45, 61, 0.04), 0 12px 32px rgba(31, 45, 61, 0.08);
+  --cta-min: 56px;
+  --desk-max: 1160px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Compatibility aliases for articles.css and older layout class names.
+     Values are Slate & Garnet. Do not restore sage or Campaign Ink hexes. */
+  --line: var(--border);
+  --line-strong: var(--border-strong);
+  --muted: var(--text-muted);
+  --faint: var(--text-muted);
+  --accent-deep: var(--accent-hover);
+  --accent-bright: var(--accent-hover);
+  --text-2: var(--text);
+  --text-3: var(--text);
+  --ink: var(--text);
+  --ink-2: var(--text);
+  --ink-3: var(--text);
+  --paper: var(--panel);
+  --paper-2: var(--surface-2);
+  --gold: var(--accent);
+  --gold-bright: var(--accent-hover);
+  --gold-hover: var(--accent-hover);
+  --gold-deep: var(--accent-hover);
+  --gold-soft: var(--accent-soft);
+  --gold-line: var(--border);
+  --gold-ink: var(--on-accent);
+  --on-ink: var(--on-band);
+  --on-ink-muted: var(--accent-on-band);
+  --band-ink: var(--band);
+  --band-ink-2: var(--band);
+  --forest: var(--accent);
+  --line-on-white: var(--border);
+  --ink-muted: var(--text-muted);
+  --radius: var(--radius-lg);
+  --shadow-card: var(--shadow-quiet);
+  --shadow-lift: var(--shadow-quiet);
+  --max: var(--desk-max);
+  --measure: 38rem;
+  --gutter: 32px;
+}
+
+/* Forbidden reuse: sage Soft Clinic, cream, Campaign Ink ink/gold/teal. */

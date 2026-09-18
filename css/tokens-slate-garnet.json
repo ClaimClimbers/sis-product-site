@@ -1,0 +1,86 @@
+{
+  "name": "Security in Social · Slate & Garnet",
+  "version": 1,
+  "color": {
+    "themes": [ { "id": "light", "name": "Light" } ],
+    "tokens": [
+      { "name": "surface", "value": "#f4f4f2", "usage": "Page background. Cool stone. Text on it: text, text-muted, accent." },
+      { "name": "surface-2", "value": "#e9eae6", "usage": "Alternating sections, step tiles, table stripes, secondary button hover. Text on it: text (11.6:1), text-muted." },
+      { "name": "panel", "value": "#ffffff", "usage": "Cards, the hero card, inputs, article bodies, secondary button fill. Text on it: text (14:1), text-muted (7.6:1), accent (7.6:1)." },
+      { "name": "text", "value": "#1f2d3d", "usage": "Slate ink. All headings and body copy on surface, surface-2, panel and accent-soft. Also the back sheet of the mark and the band fill." },
+      { "name": "text-muted", "value": "#4a5563", "usage": "Ledes, nav, captions, helper text on surface (6.9:1) and panel (7.6:1). Never for body paragraphs." },
+      { "name": "accent", "value": "#9b2a35", "usage": "Garnet. Primary button fill (white label 7.6:1), kicker text and inline links on surface and panel (6.9:1 and 7.6:1), the one highlighted line in a record composition, list bullets. One garnet element per view." },
+      { "name": "accent-hover", "value": "#7f1f29", "usage": "Primary button hover and active fill. White label 9.9:1." },
+      { "name": "accent-soft", "value": "#f6e2e4", "usage": "Quiet ground for callouts, step numbers, selected rows. Text on it: text (11.3:1) or accent (6.1:1). Never white text." },
+      { "name": "on-accent", "value": "#ffffff", "usage": "Label color on accent and accent-hover." },
+      { "name": "band", "value": "#1f2d3d", "usage": "Footer band and any dark strip. Text on it: on-band, accent-on-band." },
+      { "name": "on-band", "value": "#ffffff", "usage": "Text and the reversed wordmark on band (14:1)." },
+      { "name": "accent-on-band", "value": "#eea3a8", "usage": "The italic 'in', links and the front sheet of the reversed mark on band (7:1). Never on light surfaces." },
+      { "name": "border", "value": "#d6d9d6", "usage": "Hairlines and decorative card edges on surface and panel. Carries no meaning." },
+      { "name": "border-strong", "value": "#7f8786", "usage": "Control borders, the secondary button outline, dividers that carry meaning. 3.3:1 on surface, 3.6:1 on panel." },
+      { "name": "focus", "value": "#2b5d8c", "usage": "Focus ring only: 3px solid, 2px offset, on surface (6.3:1), panel (6.9:1), surface-2 (5.7:1) and accent-soft (5.5:1). Never a fill or text color." },
+      { "name": "danger", "value": "#8a2f2f", "usage": "Form error text and error borders on panel (8.3:1) and danger-soft (6.9:1)." },
+      { "name": "danger-soft", "value": "#f5e6e6", "usage": "Ground behind an error message. Text on it: danger, text." }
+    ]
+  },
+  "type": {
+    "fonts": [
+      { "family": "Fraunces", "file": "fonts/Fraunces-Variable.woff2", "weight": "100 900", "style": "normal" },
+      { "family": "Fraunces", "file": "fonts/Fraunces-Variable-Italic.woff2", "weight": "100 900", "style": "italic" },
+      { "family": "DM Sans", "file": "fonts/DMSans-Variable.woff2", "weight": "100 1000", "style": "normal" },
+      { "family": "DM Sans", "file": "fonts/DMSans-Variable-Italic.woff2", "weight": "100 1000", "style": "italic" }
+    ],
+    "families": {
+      "serif": "\"Fraunces\", Georgia, \"Times New Roman\", serif",
+      "sans": "\"DM Sans\", \"Segoe UI\", \"Helvetica Neue\", system-ui, sans-serif"
+    },
+    "groups": [
+      { "name": "Display", "family": "serif", "styles": [
+        { "name": "display-1", "fontSize": "56px", "lineHeight": "1.08", "fontWeight": 500, "letterSpacing": "-0.02em", "opticalSize": 72, "sample": "Understand your medical records before you apply.", "usage": "H1. 40px on phones. One per page." },
+        { "name": "display-2", "fontSize": "40px", "lineHeight": "1.15", "fontWeight": 500, "letterSpacing": "-0.01em", "opticalSize": 72, "sample": "What comes back in plain English.", "usage": "H2 and section titles. 32px on phones." },
+        { "name": "heading-3", "fontSize": "26px", "lineHeight": "1.25", "fontWeight": 600, "opticalSize": 48, "sample": "A list of what is still missing", "usage": "H3, card and step titles." },
+        { "name": "wordmark", "fontSize": "27px", "lineHeight": "1", "fontWeight": 600, "letterSpacing": "-0.01em", "opticalSize": 144, "sample": "Security in Social", "usage": "Header wordmark only, when the SVG can not be used. The 'in' is italic weight 400 in accent." }
+      ] },
+      { "name": "Text", "family": "sans", "styles": [
+        { "name": "body-lg", "fontSize": "21px", "lineHeight": "1.55", "fontWeight": 400, "sample": "We read the records you already have and explain them in everyday words.", "usage": "Ledes under H1 and H2, in text-muted." },
+        { "name": "body", "fontSize": "19px", "lineHeight": "1.6", "fontWeight": 400, "sample": "If the records are not enough, we say so in writing.", "usage": "All body copy. Never smaller than 17px on the marketing site." },
+        { "name": "body-sm", "fontSize": "17px", "lineHeight": "1.5", "fontWeight": 400, "sample": "Help with Social Security medical records. No outcome guarantees.", "usage": "Captions, nav links, footer, form helper text." }
+      ] },
+      { "name": "UI", "family": "sans", "styles": [
+        { "name": "cta", "fontSize": "19px", "lineHeight": "1", "fontWeight": 600, "sample": "Start a record review", "usage": "Button labels. Header button 17px." },
+        { "name": "kicker", "fontSize": "15px", "lineHeight": "1.2", "fontWeight": 600, "letterSpacing": "0.08em", "sample": "WHEN THE PAPERWORK FEELS IMPOSSIBLE", "usage": "Uppercase eyebrow above an H1 or H2, colored accent." },
+        { "name": "tag", "fontSize": "12px", "lineHeight": "1", "fontWeight": 700, "letterSpacing": "0.12em", "sample": "SAMPLE", "usage": "The SAMPLE pill only. Uppercase." }
+      ] }
+    ]
+  },
+  "spacing": {
+    "tokens": [
+      { "name": "space-1", "value": "8px", "usage": "Gaps inside a control, bullet gaps." },
+      { "name": "space-2", "value": "16px", "usage": "Gaps between buttons, phone side gutter, minimum tap gap." },
+      { "name": "space-3", "value": "24px", "usage": "Card padding on phones, gaps between cards." },
+      { "name": "space-4", "value": "40px", "usage": "Card padding on desktop, section rhythm on phones." },
+      { "name": "space-5", "value": "64px", "usage": "Section rhythm on desktop, hero top padding." },
+      { "name": "space-6", "value": "96px", "usage": "Page-end breathing room above the footer band." }
+    ]
+  },
+  "radius": {
+    "tokens": [
+      { "name": "radius-sm", "value": "8px", "usage": "Chips, step-number tiles, the SAMPLE tag in compositions." },
+      { "name": "radius-md", "value": "12px", "usage": "Buttons and inputs." },
+      { "name": "radius-lg", "value": "20px", "usage": "Cards and photos." },
+      { "name": "radius-pill", "value": "999px", "usage": "The SAMPLE pill in page chrome only." }
+    ]
+  },
+  "shadow": {
+    "tokens": [
+      { "name": "shadow-quiet", "value": "0 1px 0 rgba(31,45,61,0.04), 0 12px 32px rgba(31,45,61,0.08)", "usage": "The hero photo and the promise card. Nothing else is elevated." }
+    ]
+  },
+  "size": {
+    "tokens": [
+      { "name": "cta-min", "value": "56px", "usage": "Minimum height of the primary and secondary buttons and of inputs." },
+      { "name": "cta-header", "value": "48px", "usage": "Minimum height of the header button." },
+      { "name": "desk-max", "value": "1160px", "usage": "Content max width." }
+    ]
+  }
+}

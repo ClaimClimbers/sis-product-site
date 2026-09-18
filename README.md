@@ -70,7 +70,7 @@ No build step. Framework preset **Other**. Root of this repo is the upload.
 
 ## Visual
 
-Soft Clinic. Fraunces + DM Sans. Pale sage surface (`#f2f7f4`). Charcoal text (`#24302c`). Soft green accent (`#3a7d6a`). White panels. CTA min 56px. Official tokens in `css/tokens-soft-clinic.css`. Shared chrome in `css/site-chrome-soft-clinic.css`. Campaign Ink (`#07090d` / `#c9920f` / `#0f6b5c`) is Soft CLEAR FAIL and is not the public brand system.
+Slate & Garnet. Self-hosted Fraunces + DM Sans (`fonts/`). Cool stone surface (`#f4f4f2`). Slate ink text (`#1f2d3d`). Garnet accent (`#9b2a35`) for action only. White panels. CTA min 56px (48px in header). Official tokens in `css/tokens-slate-garnet.css`. Shared chrome in `css/site-chrome-slate-garnet.css`. SVG lockups in `images/brand/`. Sage Soft Clinic (`#f2f7f4` / `#3a7d6a`) and Campaign Ink (`#07090d` / `#c9920f` / `#0f6b5c`) are Soft CLEAR FAIL and are not the public brand system.
 
 ## Contact form
 

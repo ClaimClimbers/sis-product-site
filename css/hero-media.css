@@ -1,4 +1,4 @@
-/* Hero documentary still. Soft Clinic quiet panel, not Campaign Ink gold border. */
+/* Hero documentary still. Slate & Garnet quiet panel, not Campaign Ink or sage. */
 .hero-media {
   margin: 0;
   min-width: 0;
@@ -7,8 +7,8 @@
 .hero-media img {
   width: 100%;
   height: auto;
-  border-radius: calc(var(--radius) + 2px);
-  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  border: 0;
   box-shadow: var(--shadow-quiet);
   background: var(--surface-2);
   object-fit: cover;
