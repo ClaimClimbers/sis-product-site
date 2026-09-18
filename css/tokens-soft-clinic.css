@@ -1,7 +1,7 @@
 /* Soft Clinic · LOCKED brand tokens (Sam 2026-09-17 ~6:23pm CT)
    Pale sage / mint-soft surfaces · charcoal text · soft teal-green (NOT #0f6b5c)
    Healthcare calm without AI-slop cards. NOT Campaign Ink ink/gold/teal.
-   Product Home import only. Pricing / articles / desk stay on existing chrome.
+   Site-wide public chrome. Home and inner pages share these tokens.
    Soft CLEAR · Letters OUT · no AI/MD/em-dash · 2026-09-17 */
 
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap");
@@ -38,6 +38,31 @@
   --desk-max: 1100px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --shadow-quiet: 0 1px 0 rgba(36, 48, 44, 0.04), 0 14px 36px rgba(36, 48, 44, 0.06);
+  --max: 1100px;
+  --measure: 38rem;
+  --gutter: 32px;
+  /* Layout aliases. Values stay Soft Clinic. Do not restore Campaign Ink hexes. */
+  --ink: #24302c;
+  --ink-2: #33403b;
+  --ink-3: #42524c;
+  --paper: #ffffff;
+  --paper-2: #e6f0ea;
+  --gold: #3a7d6a;
+  --gold-bright: #4a917c;
+  --gold-hover: #2a5c4e;
+  --gold-deep: #2a5c4e;
+  --gold-soft: #dff0e8;
+  --gold-line: rgba(36, 48, 44, 0.12);
+  --gold-ink: #ffffff;
+  --on-ink: #24302c;
+  --on-ink-muted: #4d5e57;
+  --band-ink: #e6f0ea;
+  --band-ink-2: #e6f0ea;
+  --forest: #3a7d6a;
+  --line-on-white: rgba(36, 48, 44, 0.12);
+  --ink-muted: #4d5e57;
+  --shadow-card: 0 1px 0 rgba(36, 48, 44, 0.04), 0 14px 36px rgba(36, 48, 44, 0.06);
+  --shadow-lift: 0 16px 40px rgba(36, 48, 44, 0.1);
 }
 
 /* Forbidden reuse: --ink #07090d · --gold #c9920f · --accent #0f6b5c · cream #f4efe4 */

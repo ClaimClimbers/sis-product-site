@@ -70,7 +70,7 @@ No build step. Framework preset **Other**. Root of this repo is the upload.
 
 ## Visual
 
-Campaign Ink. Newsreader + Source Sans 3. White paper canvas (`#ffffff`). Dark mast (`#07090d`). Gold CTAs (`#c9920f`). Teal accent (`#0f6b5c`). Official tokens in `css/product-site-bold-tokens.css` and the `:root` block in `css/site.css`.
+Soft Clinic. Fraunces + DM Sans. Pale sage surface (`#f2f7f4`). Charcoal text (`#24302c`). Soft green accent (`#3a7d6a`). White panels. CTA min 56px. Official tokens in `css/tokens-soft-clinic.css`. Shared chrome in `css/site-chrome-soft-clinic.css`. Campaign Ink (`#07090d` / `#c9920f` / `#0f6b5c`) is Soft CLEAR FAIL and is not the public brand system.
 
 ## Contact form
 
