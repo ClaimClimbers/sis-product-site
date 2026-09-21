@@ -20,6 +20,8 @@
   <meta name="twitter:description" content="Tell us where you are. We read your medical records and explain what the file shows and what is still missing.">
   <meta name="twitter:image" content="https://securityinsocial.com/images/sis-og-share-1200x630.jpg">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/brand/sis-favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="css/tokens-slate-garnet.css">
   <link rel="stylesheet" href="css/site-chrome-slate-garnet.css">
 </head>
@@ -69,10 +71,6 @@
           <input id="name" name="name" type="text" autocomplete="name" required>
         </div>
         <div class="field">
-          <label for="firm">Firm</label>
-          <input id="firm" name="firm" type="text" autocomplete="organization">
-        </div>
-        <div class="field">
           <label for="role">Role</label>
           <select id="role" name="role">
             <option value="claimant">I am applying</option>
@@ -82,6 +80,10 @@
             <option value="clinician">Clinician</option>
             <option value="other">Other</option>
           </select>
+        </div>
+        <div class="field" id="firm-field" hidden aria-hidden="true">
+          <label for="firm">Firm</label>
+          <input id="firm" name="firm" type="text" autocomplete="organization">
         </div>
         <div class="field">
           <label for="email">Email</label>

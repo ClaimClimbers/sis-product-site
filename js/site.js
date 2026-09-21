@@ -37,25 +37,50 @@
   var status = document.getElementById("form-status");
   var preview = document.getElementById("form-preview");
   var copyBtn = document.getElementById("copy-request");
+  var roleSelect = document.getElementById("role");
+  var firmField = document.getElementById("firm-field");
+  var firmInput = document.getElementById("firm");
+
+  function roleShowsFirm(value) {
+    return value === "attorney" || value === "firm";
+  }
+
+  function syncFirmField() {
+    if (!roleSelect || !firmField) return;
+    var show = roleShowsFirm(roleSelect.value);
+    firmField.hidden = !show;
+    firmField.setAttribute("aria-hidden", show ? "false" : "true");
+    if (!show && firmInput) firmInput.value = "";
+  }
+
+  if (roleSelect) {
+    roleSelect.addEventListener("change", syncFirmField);
+    syncFirmField();
+  }
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
 
     var data = new FormData(form);
     var needs = data.getAll("need");
+    var role = data.get("role") || "";
     var lines = [
       "Security in Social record review request",
       "This form stays on your device. Nothing was sent to a server. Copy this request and send it to the person who shared this site. A public inbox will be listed on Contact when one is live.",
       "",
       "Name: " + (data.get("name") || ""),
-      "Firm: " + (data.get("firm") || ""),
-      "Role: " + (data.get("role") || ""),
+      "Role: " + role,
+    ];
+    if (roleShowsFirm(role)) {
+      lines.push("Firm: " + (data.get("firm") || ""));
+    }
+    lines.push(
       "Email: " + (data.get("email") || ""),
       "Need: " + (needs.length ? needs.join(", ") : "not specified"),
       "",
       "Notes:",
       data.get("notes") || "(none)"
-    ];
+    );
     var message = lines.join("\n");
 
     if (preview) preview.textContent = message;
