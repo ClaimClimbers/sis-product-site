@@ -690,6 +690,11 @@ details.faq-item .answer {
   margin: 0;
 }
 
+/* Author `display:flex` beats the UA `[hidden]{display:none}` rule. */
+.form .field[hidden] {
+  display: none !important;
+}
+
 .form .field input,
 .form .field textarea,
 .form .field select,
