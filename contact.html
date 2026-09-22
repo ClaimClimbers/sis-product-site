@@ -51,16 +51,16 @@
     <section class="page-hero">
       <p class="kicker">Contact</p>
       <h1>Tell us where you are. We will meet you there.</h1>
-      <p class="lede">Start with a short note. Use the contact path already on this site. We will not invent a phone number or inbox that is not real. <a href="/pricing">See pricing</a> for full details on the lifetime review and the companion app.</p>
+      <p class="lede">Start with a short note. <a href="/pricing">See pricing</a> for full details. We will not invent a phone number or inbox that is not real.</p>
       <div class="actions">
-        <a class="btn btn-primary" href="#demo-form">Send a message</a>
+        <a class="btn btn-primary" href="#review">Start a record review</a>
         <a class="btn btn-ghost" href="/pricing">See pricing</a>
       </div>
     </section>
 
     <section class="section">
       <p class="kicker">Please include</p>
-      <h2>A real person on our team will take the next step with you.</h2>
+      <h2>Write a short note. It stays on this device.</h2>
       <p>Nothing replies in your name without you.</p>
       <div class="card" style="margin:16px 0 20px">
         <p>Whether this is for you or someone you love. Where you are in the Social Security process. Whether you want the lifetime review or the app.</p>
@@ -76,7 +76,7 @@
             <option value="claimant">I am applying</option>
             <option value="family">Family helper</option>
             <option value="attorney">Attorney / representative</option>
-            <option value="firm">I work at a disability firm</option>
+            <option value="firm">I work at a disability office</option>
             <option value="clinician">Clinician</option>
             <option value="other">Other</option>
           </select>
@@ -101,13 +101,13 @@
           <label for="notes">Notes</label>
           <textarea id="notes" name="notes" maxlength="2000" placeholder="Where you are in the Social Security process. Please do not paste live medical records."></textarea>
         </div>
-        <p class="note-quiet">This form stays on your device. Nothing is stored on a server. Copy your note and send it to the person who shared this site. A public inbox will be listed here when one is live. Please do not include live medical records.</p>
+        <p class="note-quiet">This note stays on your device until a public inbox is live. Nothing is stored on a server yet. Copy your note and send it through the path your helper shared, or wait until Contact can deliver. Please do not include live medical records.</p>
         <div class="actions">
-          <button class="btn btn-primary" type="submit">Send a message</button>
-          <a class="btn btn-ghost" href="/pricing">See pricing</a>
+          <button class="btn btn-primary" type="submit" name="need" value="records-review">Start a record review</button>
+          <button class="btn btn-ghost" type="submit" name="need" value="app-plan">Ask about the companion app</button>
         </div>
         <div class="form-status" id="form-status" tabindex="-1">
-          <p>Your message is ready on this device. Nothing was sent to a server. Copy it and send it to the person who shared this site. A public inbox will be listed here when one is live.</p>
+          <p>This note stays on your device until a public inbox is live. Nothing is stored on a server yet. Copy your note and send it through the path your helper shared, or wait until Contact can deliver.</p>
           <pre class="copied" id="form-preview"></pre>
           <button class="btn btn-ghost" type="button" id="copy-request">Copy request</button>
         </div>
