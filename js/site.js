@@ -21,15 +21,20 @@
     });
   }
 
-  var hash = window.location.hash;
-  if (hash === "#review") {
-    var reviewBox = document.getElementById("need-review");
-    if (reviewBox) reviewBox.checked = true;
+  function applyNeedHash() {
+    var hash = window.location.hash;
+    if (hash === "#review") {
+      var reviewBox = document.getElementById("need-review");
+      if (reviewBox) reviewBox.checked = true;
+    }
+    if (hash === "#app") {
+      var appBox = document.getElementById("need-app");
+      if (appBox) appBox.checked = true;
+    }
   }
-  if (hash === "#app") {
-    var appBox = document.getElementById("need-app");
-    if (appBox) appBox.checked = true;
-  }
+
+  applyNeedHash();
+  window.addEventListener("hashchange", applyNeedHash);
 
   var form = document.getElementById("demo-form");
   if (!form) return;
@@ -61,12 +66,20 @@
   form.addEventListener("submit", function (event) {
     event.preventDefault();
 
+    var submitter = event.submitter;
+    if (submitter && submitter.name === "need") {
+      var matchedNeed = form.querySelector('input[type="checkbox"][name="need"][value="' + submitter.value + '"]');
+      if (matchedNeed) matchedNeed.checked = true;
+    }
+
     var data = new FormData(form);
-    var needs = data.getAll("need");
+    var needs = data.getAll("need").filter(function (value, index, all) {
+      return all.indexOf(value) === index;
+    });
     var role = data.get("role") || "";
     var lines = [
       "Security in Social record review request",
-      "This form stays on your device. Nothing was sent to a server. Copy this request and send it to the person who shared this site. A public inbox will be listed on Contact when one is live.",
+      "This note stays on your device until a public inbox is live. Nothing is stored on a server yet. Copy your note and send it through the path your helper shared, or wait until Contact can deliver.",
       "",
       "Name: " + (data.get("name") || ""),
       "Role: " + role,
